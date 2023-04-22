@@ -1,0 +1,156 @@
+/*Colores 
+Verde #00A94F
+Blanco #F2F2F2
+Rojo #F20505
+Negro #1e272e
+*/
+html{
+    font-family: 'Comic Neue', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: #00A94F;
+    font-weight: bold;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 300;
+}
+.container{
+    background: #7F7FD5; /*Resplado */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    position: relative;
+    max-width: 960px;
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
+    overflow-y:scroll;
+}
+
+.content{
+    padding:1em;
+}
+td{
+    display:block;
+    width: 100%;
+}
+td:nth-of-type(1){
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #41644A;       
+}
+th{
+    display:none;
+}
+
+.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.close{
+    height: 40px;
+    width: 40px;
+    color:white;
+    border-radius: 50%;
+    background-color: #7F7FD5;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-star, .fa-star-o{
+    color: #e3de4e;
+}
+
+.fa-location-dot{
+    color:#ff0505
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+}
+.table tr:nth-child(even){ background-color: #98D8AA;}
+
+.title-item{
+    border-bottom: solid 2px;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    font-size: 2em;
+
+}
+
+.address{
+    font-weight: bold;
+    color: #41644A;
+    font-size: 1.2em;
+    margin-top: 2em;
+    display: inline-block;
+}
+
+.position{
+    background-color: #41644A;
+    color: white;
+    padding: 0.5em;
+    border-radius: 4px;
+    margin-right: 0.5em;
+}
+
+.main-image{
+    float: left;
+    margin-right: 1em;
+    height: 250px;
+}
+
+@media(min-width:900px){
+    th{
+        display: table-cell;
+    }
+    td{
+        width: auto;
+        display: table-cell;
+    }
+    td:nth-of-type(1){
+        font-size: 1em;
+    }
+    .content{
+        padding: 1.8em;
+    }
+   
+}
+
+@media (min-width:550px){
+    .content{
+        height: 500px;
+    }
+}

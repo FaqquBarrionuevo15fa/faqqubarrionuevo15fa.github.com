@@ -1,0 +1,70 @@
+<!--<main>
+            <ul  class="Servicios">
+                <li>
+                    <h2>Cabello</h2>
+                    <img src="/Imagenes/cabello.jpg">
+                    <p class="producto-descripcion">Con tijera o máquina, a gusto del cliente</p>
+                    <p class="producto-precio">$1200</p>            
+                </li>
+                <li>
+                    <h2>Barba</h2>
+                    <img src="/Imagenes/barba.jpg">
+                    <p class="producto-descripcion">Corte y diseño profesional de barba</p>
+                    <p class="producto-precio">$500</p>
+                </li>
+                <li>
+                    <h2>Cabello + Barba</h2>
+                    <img src="/Imagenes/cabello+barba.jpg">
+                    <p class="producto-descripcion">Paquete completo de cabello y barba</p>
+                    <p class="producto-precio">$1500</p>  
+                </li>
+            </ul>
+    </main>-->
+
+
+CSS
+
+.Servicios{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.Servicios li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.Servicios li:hover{
+    border-color: #19A7CE;
+}
+
+.Servicios li:active{
+    border-color: #088c19;
+}
+
+.Servicios h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Servicios li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}

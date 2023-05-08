@@ -1,0 +1,103 @@
+ <div class="caja">
+            <h1><img src="../Imagenes/logo.png" alt="Logo Barberia"></h1>
+                <nav>
+                    <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/Productos/Productos.html">Productos</a></li>
+                    <li><a href="../Contacto/Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+
+
+CSS style
+
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+    
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #19A7CE;
+    text-decoration: underline;
+}
+
+.banner{
+    width: 100%;
+}
+
+.principal{
+    background: #cccccc;
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+    /*height: 150px;
+    border: 5px solid #232323;
+    padding: 20px;
+    margin: 40px;*/
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color: red;
+}
+
+.mision{
+    font-size: 20px;
+    text-align: center;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imgdiferenciales{
+    width: 50%;
+}
